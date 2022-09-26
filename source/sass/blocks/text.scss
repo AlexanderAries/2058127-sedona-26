@@ -1,4 +1,4 @@
-.text__title--index {
+.text__title-index {
   margin: 0;
   padding: 0;
   padding-top: 28px;
@@ -23,7 +23,7 @@
   }
 }
 
-.text__title--road {
+.text__title-road {
   padding-top: 27px;
 
   @media (min-width: $tablet-width) {
@@ -37,7 +37,7 @@
   }
 }
 
-.text__title--tourists {
+.text__title-tourists {
   padding-top: 41px;
 
   @media (min-width: $tablet-width) {
@@ -51,7 +51,7 @@
   }
 }
 
-.text__sub--index {
+.text__sub-index {
   margin: 0;
   padding: 0;
   font-family: $font-stack;
@@ -68,7 +68,7 @@
   }
 }
 
-.text__description--index {
+.text__description-index {
   margin: 0;
   padding: 4px 19px 14.5px;
   font-family: $font-stack;
@@ -85,7 +85,7 @@
   }
 }
 
-.text__description--road {
+.text__description-road {
   padding: 3.5px 48px;
 
   @media (min-width: $tablet-width) {
@@ -94,7 +94,7 @@
   }
 }
 
-.text__description--tourists {
+.text__description-tourists {
   padding: 4px 31px 15.5px;
 
   @media (min-width: $tablet-width) {
