@@ -163,7 +163,7 @@
       </button>
       <ul class="nav__list site-list">
         <li class="site-list__item">
-          <a class="site-list__link" href="index.html">
+          <a class="site-list__link site-list__link--active" href="index.html">
             Главная
           </a>
         </li>
@@ -173,7 +173,7 @@
           </a>
         </li>
         <li class="site-list__item">
-          <a class="site-list__link site-list__link--active" href="form.html">
+          <a class="site-list__link" href="form.html">
             Форма отзыва
           </a>
         </li>
@@ -222,14 +222,14 @@
           </fieldset>
           <fieldset class="content__information information">
             <h2 class="information__title">Контактная информация:</h2>
-            <span class="information__description">Контактный телефон*:</span >
             <label class="information__phone">
+              <span class="information__description">Контактный телефон*:</span >
               <input class="information__text text-area" type="tel" placeholder="Введите телефон">
               <span class="information__phone-block"><img class="information__phone-img" src="./img/phone.svg"
                   alt="Иконка телефона"></span>
             </label>
-            <span class="information__description">Электронная почта*:</span>
             <label class="information__e-mail">
+              <span class="information__description">Электронная почта*:</span>
               <input class="information__text text-area" type="tel" placeholder="Введите e-mail">
               <span class="information__e-mail-block"><img class="information__e-mail-img" src="./img/mail.svg"
                   alt="Иконка почты"></span>
@@ -288,8 +288,8 @@
         </div>
       </div>
       <div class="content__review review">
-        <h2 class="review__title">Опишите свои эмоции:</h2>
-        <textarea class="review__textarea">Опишите подробно все свои восторги</textarea>
+        <label for="textarea" class="review__title">Опишите свои эмоции:</h2>
+        <textarea class="review__textarea" id="textarea">Опишите подробно все свои восторги</textarea>
         <span class="review__bottom">
           <button class="review__button" type="submit" value="Отправить отзыв">Отправить отзыв</button>
           <span class="review__text">* — обязательные поля</span>
